@@ -12,7 +12,7 @@ Get started the dependencies package
   npm install
 ```
 
-Run start for the development mode, then listen to port on your browser (localhost:port/pokepedia-app/)
+Run start for the development mode, then listen to port on your browser
 ```html
   npm run start
 ```
