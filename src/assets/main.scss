@@ -123,13 +123,13 @@ body {
                     font-size: 16px;
                     text-align: center;
                     width: 30px;
-                    padding-block: 1px;
+                    padding: 1px 0;
                     transition: all .25s ease;
                 }
                 .fa-dot-circle {
                     flex-shrink: 0;
                     font-size: 10px !important;
-                    padding-block: 3.5px;
+                    padding: 3.5px 0;
                 }
                 .navlink-text {
                     flex-shrink: 0;
@@ -594,6 +594,7 @@ body {
             font-size: 12px;
         }
         .input-text {
+            background: var(--white-color);
             margin-top: 4px;
             width: 100%;
             padding: 6px 12px;
@@ -612,7 +613,8 @@ body {
             display: flex;
             align-items: center;
             .input-text {
-               width: 120px;
+                background: var(--white-color);
+                width: 120px;
             }
             .captcha-code {
                 margin: 4px 0 0 12px;
@@ -728,6 +730,7 @@ body {
                 font-size: 12px;
             }
             .input-text, .input-select, .input-textarea {
+                background: var(--white-color);
                 margin-top: 4px;
                 width: 100%;
                 padding: 6px 12px;
@@ -934,6 +937,7 @@ body {
         font-size: 12px;
     }
     .input-text, .input-textarea {
+        background: var(--white-color);
         margin-top: 4px;
         width: 100%;
         padding: 6px 12px;
