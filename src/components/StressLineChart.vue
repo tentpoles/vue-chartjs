@@ -2,8 +2,10 @@
   <div class="dashboard-container">
     <DashboardHeader></DashboardHeader>
     <div class="chart-container animate__animated animate__bounceInUp animate__delay-1s">
-      <h1 style="text-align: center;">Stress Level Report (Using Vue.js & Chart.js)</h1>
-      <canvas id="myChart" class="animate__animated animate__bounceIn animate__delay-2s"></canvas>
+      <div class="chart-card">
+        <h1 style="text-align: center;">Stress Level Report (Using Vue.js & Chart.js)</h1>
+        <canvas id="myChart" class="animate__animated animate__bounceIn animate__delay-2s"></canvas>
+      </div>
     </div>
     <Footer></Footer>
   </div>

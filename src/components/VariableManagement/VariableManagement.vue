@@ -1,6 +1,6 @@
 <template>
     <div class="modal-container display-none animate__animated animate__fadeIn" id="addVariableManagement">
-      <div class="modal-card animate__animated animate__backInDown animate__delay-1s">
+      <div class="modal-card animate__animated animate__zoomInDown animate__delay-1s">
         <form style="width: 100%;">
           <h1 style="font-size: 15px; font-weight: var(--font-bold);">Add Parameter</h1>
           <div class="input-group">

@@ -63,6 +63,13 @@ body {
     }
 }
 
+/* Reset input appearance */
+input[type=text], input[type=password], input[type=email], select, textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+/* End */
 /* Navbar */
 .navigation-full {
     width: 300px;
@@ -154,7 +161,7 @@ body {
                 }
             }
             .navlink {
-                margin-block: 2px;
+                margin: 2px 0px;
                 list-style: none;
                 width: 100%;
                 white-space: nowrap;
@@ -165,9 +172,12 @@ body {
             }
             .navlink-group {
                 width: 100%;
-                height: 304px;
+                height: 316px;
                 overflow: hidden;
                 transition: height .25s ease;
+                & > .navlink + .navlink {
+                    margin-top: 4px;
+                }
             }
             .rotate-180deg {
                 transform: rotate(180deg);
@@ -559,14 +569,18 @@ body {
 /* Dashboard Index */
 .chart-container {
     width: 100%;
-    padding: 36px 24px;
     background: var(--white-color);
     border-radius: 6px;
     box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1);
     transition: width .25s ease-in-out;
-    #myChart {
-        margin-top: 14px;
+    .chart-card {
+        padding: 36px 24px;
+        min-width: 800px;
         max-width: 100%;
+        #myChart {
+            margin-top: 14px;
+            width: 100%;
+        }
     }
 }
 /* End */
@@ -675,7 +689,6 @@ input[type=text], input[type=password], input[type=email], select, textarea {
     appearance: none;
 }
 /* End */
-
 /* Dashboard Content */
 .dashboard-content {
     width: 100%;
@@ -997,9 +1010,6 @@ footer {
     }
 }
 /* End */
-
-
-
 
 /* Window scrollbar costumize */
 ::-webkit-scrollbar {
