@@ -667,6 +667,14 @@ body {
 }
 /* End */
 
+/* Reset input appearance */
+input[type=text], input[type=password], select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+/* End */
+
 /* Dashboard Content */
 .dashboard-content {
     width: 100%;
@@ -747,7 +755,7 @@ body {
             }
             .input-select {
                 color: #c4c4cc;
-                padding: 5px 12px !important;
+                padding: 6px 12px !important;
             }
             .input-textarea {
                 height: 98px;
@@ -810,9 +818,6 @@ body {
                 font-size: 13px;
                 padding: 9px 52px 10px 12px;
                 border-radius: 6px;
-                -webkit-appearance: none;
-                -moz-appearance: none;
-                appearance: none;
                 &:focus {
                     border: 1px solid var(--primary-text-color);
                 }
@@ -991,6 +996,9 @@ footer {
     }
 }
 /* End */
+
+
+
 
 /* Window scrollbar costumize */
 ::-webkit-scrollbar {

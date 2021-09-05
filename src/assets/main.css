@@ -926,6 +926,14 @@ body {
 }
 
 /* End */
+/* Reset input appearance */
+input[type=text], input[type=password], select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* End */
 /* Dashboard Content */
 .dashboard-content {
   width: 100%;
@@ -1044,7 +1052,7 @@ body {
 
 .dashboard-content .dashboard-form .input-group .input-select {
   color: #c4c4cc;
-  padding: 5px 12px !important;
+  padding: 6px 12px !important;
 }
 
 .dashboard-content .dashboard-form .input-group .input-textarea {
@@ -1150,9 +1158,6 @@ body {
   font-size: 13px;
   padding: 9px 52px 10px 12px;
   border-radius: 6px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
 }
 
 .dashboard-content .dashboard-page-control .show-entries .show-entries-select:focus {

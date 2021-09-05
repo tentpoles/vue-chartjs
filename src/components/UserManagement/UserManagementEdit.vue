@@ -10,7 +10,7 @@
     <span class="fas fa-chevron-right"></span>
     <h3 class="list-child"><router-link :to="{ name: 'user-management-index' }">User Management</router-link></h3>
     <span class="fas fa-chevron-right"></span>
-    <h3 class="list-parent">Add User</h3>
+    <h3 class="list-parent">Edit User</h3>
     </div>
     <div class="dashboard-content animate__animated animate__fadeIn">
       <form>

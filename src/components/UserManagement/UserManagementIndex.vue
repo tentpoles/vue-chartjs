@@ -61,8 +61,8 @@
               <td>ONLINE</td>
               <td>Roman Underground</td>
               <td style="text-align: center;">
-                <span class="btn-action far fa-edit" @click.prevent="editVariable(event)"></span>
-                <span class="btn-action far fa-trash-alt" @click.prevent="deleteVariable(event)"></span>
+                <router-link :to="{ name: 'user-management-edit' }"><span class="btn-action far fa-edit"></span></router-link>
+                <span class="btn-action far fa-trash-alt" @click.prevent="deleteUser(event)"></span>
               </td>
             </tr>
           </table>
@@ -91,12 +91,13 @@
       components: {
     },
     methods: {
-      editVariable: function(event) {
-        alert("Edit");
-      },
-      deleteVariable: function(event) {
-        alert("Delete");
-      },
+      deleteUser: function(event) {
+        let getId = document.getElementById('deleteUserManagement');
+        if(getId.classList.contains('display-none')) {
+          getId.classList.add('display-flex');
+          getId.classList.remove('display-none');
+        }
+      }
     }
   }
 </script>

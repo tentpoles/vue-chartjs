@@ -36,7 +36,7 @@
     .btn-homepage {
         margin-top: 20px;
         background: #ce3452;
-        padding: 11px 18px 12px 20px;
+        padding: 12px 20px;
         letter-spacing: 0.3mm;
         border-radius: 6px;
         font-weight: var(--font-bold);

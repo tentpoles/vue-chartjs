@@ -26,6 +26,11 @@ const routes = [
             name: 'user-management-add',
             component: () => import("../components/UserManagement/UserManagementAdd.vue"),
           },
+          {
+            path: 'edit',
+            name: 'user-management-edit',
+            component: () => import("../components/UserManagement/UserManagementEdit.vue"),
+          },
       ]
   },
   {
