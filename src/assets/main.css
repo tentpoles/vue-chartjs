@@ -927,7 +927,7 @@ body {
 
 /* End */
 /* Reset input appearance */
-input[type=text], input[type=password], select {
+input[type=text], input[type=password], select, textarea {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
