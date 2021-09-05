@@ -14,7 +14,7 @@ Get started the dependencies package
 
 Run start for the development mode, then listen to port on your browser
 ```html
-  npm run start
+  npm run serve
 ```
 
 Build for production
