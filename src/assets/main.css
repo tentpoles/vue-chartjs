@@ -247,7 +247,7 @@ input[type=text], input[type=password], input[type=email], select, textarea {
 
 @media (max-width: 800px) {
   .navigation-container .navigation .nav .navlink-group {
-    height: 318px;
+    height: 320px;
   }
 }
 
