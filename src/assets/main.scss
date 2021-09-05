@@ -178,6 +178,9 @@ input[type=text], input[type=password], input[type=email], select, textarea {
                 & > .navlink + .navlink {
                     margin-top: 4px;
                 }
+                @media (max-width: 800px) {
+                    height: 318px;
+                }
             }
             .rotate-180deg {
                 transform: rotate(180deg);
